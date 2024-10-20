@@ -19,7 +19,7 @@ public class BookWebService {
 
     @WebMethod
     public List<Book> getAllBooks() {
-        this.booksList.add(new Book(1, "The Great Gatsby", "F. Scott Fitzgerald", "1925"));
+//        this.booksList.add(new Book(1, "The Great Gatsby", "F. Scott Fitzgerald", "1925"));
         return this.booksList;
     }
 

@@ -8,8 +8,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@XmlRootElement(name = "book")
-@XmlAccessorType(XmlAccessType.FIELD)
+//@XmlRootElement(name = "book")
+//@XmlAccessorType(XmlAccessType.FIELD)
 @AllArgsConstructor
 @NoArgsConstructor
 public class Book {
@@ -21,6 +21,7 @@ public class Book {
     private String author;
 
     private String published;
+
 
 
 
